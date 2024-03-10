@@ -10,10 +10,13 @@ Este projeto analisa a série temporal do índice Ibovespa (BOVA11.SA) utilizand
 **Dados:<br>**
 Os dados foram obtidos do Yahoo Finance através da biblioteca yfinance.
 
-**Modelos:<br>**
-* **SARIMAX**: Modelo ARIMA sazonal com componente de regressão exógena;
-* **Prophet**: Modelo de regressão linear com sazonalidade e pontos de mudança;
-* **LSTM**: Rede neural recorrente de longo prazo.
+**Modelos Utilizados:<br>**
+* **SARIMAX** (Seasonal Autoregressive Integrated Moving Average com variáveis exógenas) é uma técnica de modelagem estatística para prever séries temporais, incorporando sazonalidade, tendência e variáveis exógenas, como dados econômicos ou climáticos, para melhorar a precisão das previsões.
+
+
+* **LSTM** (Long Short-Term Memory) é uma arquitetura de rede neural recorrente usada para previsão de séries temporais, capturando dependências de longo prazo e padrões complexos nos dados.
+
+* **Prophet** é uma biblioteca de previsão de séries temporais desenvolvida pelo Facebook, projetada para modelar dados com sazonalidade, feriados e tendências. É fácil de usar e eficaz, especialmente para conjuntos de dados comuns, fornecendo intervalos de confiança e diagnósticos úteis.
 
 **Metodologia:**<br>
 
